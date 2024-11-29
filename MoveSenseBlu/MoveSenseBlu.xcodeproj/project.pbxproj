@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		76E0914B2CF8A19200E8FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E091322CF8A19100E8FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E091392CF8A19100E8FD22;
+			remoteInfo = MoveSenseBlu;
+		};
+		76E091552CF8A19200E8FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E091322CF8A19100E8FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E091392CF8A19100E8FD22;
+			remoteInfo = MoveSenseBlu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76E0913A2CF8A19100E8FD22 /* MoveSenseBlu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveSenseBlu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E0914A2CF8A19200E8FD22 /* MoveSenseBluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveSenseBluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E091542CF8A19200E8FD22 /* MoveSenseBluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveSenseBluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		76E091682CF8A38F00E8FD22 /* Exceptions for "MoveSenseBlu" folder in "MoveSenseBlu" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 76E091392CF8A19100E8FD22 /* MoveSenseBlu */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		76E0913C2CF8A19100E8FD22 /* MoveSenseBlu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				76E091682CF8A38F00E8FD22 /* Exceptions for "MoveSenseBlu" folder in "MoveSenseBlu" target */,
+			);
+			path = MoveSenseBlu;
+			sourceTree = "<group>";
+		};
+		76E0914D2CF8A19200E8FD22 /* MoveSenseBluTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoveSenseBluTests;
+			sourceTree = "<group>";
+		};
+		76E091572CF8A19200E8FD22 /* MoveSenseBluUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoveSenseBluUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E091372CF8A19100E8FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091472CF8A19200E8FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091512CF8A19200E8FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E091312CF8A19100E8FD22 = {
+			isa = PBXGroup;
+			children = (
+				76E0913C2CF8A19100E8FD22 /* MoveSenseBlu */,
+				76E0914D2CF8A19200E8FD22 /* MoveSenseBluTests */,
+				76E091572CF8A19200E8FD22 /* MoveSenseBluUITests */,
+				76E0913B2CF8A19100E8FD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E0913B2CF8A19100E8FD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E0913A2CF8A19100E8FD22 /* MoveSenseBlu.app */,
+				76E0914A2CF8A19200E8FD22 /* MoveSenseBluTests.xctest */,
+				76E091542CF8A19200E8FD22 /* MoveSenseBluUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E091392CF8A19100E8FD22 /* MoveSenseBlu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E0915E2CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBlu" */;
+			buildPhases = (
+				76E091362CF8A19100E8FD22 /* Sources */,
+				76E091372CF8A19100E8FD22 /* Frameworks */,
+				76E091382CF8A19100E8FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				76E0913C2CF8A19100E8FD22 /* MoveSenseBlu */,
+			);
+			name = MoveSenseBlu;
+			packageProductDependencies = (
+			);
+			productName = MoveSenseBlu;
+			productReference = 76E0913A2CF8A19100E8FD22 /* MoveSenseBlu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76E091492CF8A19200E8FD22 /* MoveSenseBluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E091612CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBluTests" */;
+			buildPhases = (
+				76E091462CF8A19200E8FD22 /* Sources */,
+				76E091472CF8A19200E8FD22 /* Frameworks */,
+				76E091482CF8A19200E8FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E0914C2CF8A19200E8FD22 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76E0914D2CF8A19200E8FD22 /* MoveSenseBluTests */,
+			);
+			name = MoveSenseBluTests;
+			packageProductDependencies = (
+			);
+			productName = MoveSenseBluTests;
+			productReference = 76E0914A2CF8A19200E8FD22 /* MoveSenseBluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76E091532CF8A19200E8FD22 /* MoveSenseBluUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E091642CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBluUITests" */;
+			buildPhases = (
+				76E091502CF8A19200E8FD22 /* Sources */,
+				76E091512CF8A19200E8FD22 /* Frameworks */,
+				76E091522CF8A19200E8FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E091562CF8A19200E8FD22 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76E091572CF8A19200E8FD22 /* MoveSenseBluUITests */,
+			);
+			name = MoveSenseBluUITests;
+			packageProductDependencies = (
+			);
+			productName = MoveSenseBluUITests;
+			productReference = 76E091542CF8A19200E8FD22 /* MoveSenseBluUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E091322CF8A19100E8FD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					76E091392CF8A19100E8FD22 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					76E091492CF8A19200E8FD22 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 76E091392CF8A19100E8FD22;
+					};
+					76E091532CF8A19200E8FD22 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 76E091392CF8A19100E8FD22;
+					};
+				};
+			};
+			buildConfigurationList = 76E091352CF8A19100E8FD22 /* Build configuration list for PBXProject "MoveSenseBlu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E091312CF8A19100E8FD22;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 76E0913B2CF8A19100E8FD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E091392CF8A19100E8FD22 /* MoveSenseBlu */,
+				76E091492CF8A19200E8FD22 /* MoveSenseBluTests */,
+				76E091532CF8A19200E8FD22 /* MoveSenseBluUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E091382CF8A19100E8FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091482CF8A19200E8FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091522CF8A19200E8FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E091362CF8A19100E8FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091462CF8A19200E8FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E091502CF8A19200E8FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E0914C2CF8A19200E8FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E091392CF8A19100E8FD22 /* MoveSenseBlu */;
+			targetProxy = 76E0914B2CF8A19200E8FD22 /* PBXContainerItemProxy */;
+		};
+		76E091562CF8A19200E8FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E091392CF8A19100E8FD22 /* MoveSenseBlu */;
+			targetProxy = 76E091552CF8A19200E8FD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76E0915C2CF8A19200E8FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76E0915D2CF8A19200E8FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E0915F2CF8A19200E8FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoveSenseBlu/Preview Content\"";
+				DEVELOPMENT_TEAM = 24C3S567R4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoveSenseBlu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBlu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76E091602CF8A19200E8FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoveSenseBlu/Preview Content\"";
+				DEVELOPMENT_TEAM = 24C3S567R4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoveSenseBlu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBlu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76E091622CF8A19200E8FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBluTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveSenseBlu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoveSenseBlu";
+			};
+			name = Debug;
+		};
+		76E091632CF8A19200E8FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBluTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveSenseBlu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoveSenseBlu";
+			};
+			name = Release;
+		};
+		76E091652CF8A19200E8FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBluUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoveSenseBlu;
+			};
+			name = Debug;
+		};
+		76E091662CF8A19200E8FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.MoveSenseBluUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoveSenseBlu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E091352CF8A19100E8FD22 /* Build configuration list for PBXProject "MoveSenseBlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E0915C2CF8A19200E8FD22 /* Debug */,
+				76E0915D2CF8A19200E8FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E0915E2CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBlu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E0915F2CF8A19200E8FD22 /* Debug */,
+				76E091602CF8A19200E8FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E091612CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E091622CF8A19200E8FD22 /* Debug */,
+				76E091632CF8A19200E8FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E091642CF8A19200E8FD22 /* Build configuration list for PBXNativeTarget "MoveSenseBluUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E091652CF8A19200E8FD22 /* Debug */,
+				76E091662CF8A19200E8FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E091322CF8A19100E8FD22 /* Project object */;
+}
