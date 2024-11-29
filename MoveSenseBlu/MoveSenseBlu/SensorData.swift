@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SensorData {
+struct SensorData: Encodable {
     let x: Double
     let y: Double
     let z: Double

@@ -45,8 +45,8 @@ struct DeviceSensView: View {
                     .fontWeight(.bold)
                 
                 LineChartView(data: motionVM.accelerometerHistory)
-                            .frame(height: 200)
-                            .padding()
+                    .frame(height: 300)
+                    .padding()
             }
             
             VStack{
@@ -55,7 +55,7 @@ struct DeviceSensView: View {
                     .fontWeight(.bold)
                 
                 LineChartView(data: motionVM.gyroscopeHistory)
-                    .frame(height: 200)
+                    .frame(height: 300)
                     .padding()
             }
         }
@@ -80,8 +80,23 @@ struct DeviceSensView: View {
             .background(Color.red)
             .foregroundColor(.white)
             .cornerRadius(8)
+            
         }
         .padding()
+        Spacer().frame(height: 10)
+        
+        // Save Data Button
+        Button(action: {
+            motionVM.saveData()
+        }) {
+            Text("Save Data")
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.blue)
+                .cornerRadius(10)
+        }
+        
     }
 }
 
