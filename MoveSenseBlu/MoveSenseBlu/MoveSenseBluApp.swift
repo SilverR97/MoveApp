@@ -13,7 +13,8 @@ struct BluetoothApp: App {
 
     var body: some Scene {
         WindowGroup {
-            DeviceSensView()
+            HomeView()
+                .environmentObject(bluetoothManager)
                // .environmentObject(bluetoothManager) // Pass BluetoothManager to ContentView
         }
     }

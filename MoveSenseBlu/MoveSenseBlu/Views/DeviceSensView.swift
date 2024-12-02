@@ -13,8 +13,10 @@ struct DeviceSensView: View {
     var body: some View {
         
         Image(systemName: "iphone.circle.fill")
-            .imageScale(.large)
+            .resizable(resizingMode: .stretch)
             .foregroundStyle(.tint)
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            .frame(width: 150.0, height: 150.0)
         Text("Device sensors measurements")
             .font(.title)
         VStack(alignment: .leading){
@@ -40,7 +42,7 @@ struct DeviceSensView: View {
         
         HStack {
             VStack{
-                Text("Accelerometer Chart")
+                Text("Algorithm 1 Chart")
                     .font(.title2)
                     .fontWeight(.bold)
                 
@@ -50,7 +52,7 @@ struct DeviceSensView: View {
             }
             
             VStack{
-                Text("Gyroscope Chart")
+                Text("Algorithm 2 Chart")
                     .font(.title2)
                     .fontWeight(.bold)
                 

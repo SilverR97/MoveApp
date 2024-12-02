@@ -11,7 +11,6 @@ import Charts
 
 struct LineChartView: View {
     var data: [(String, Double)] // Tuple of axis label and value
-
         var body: some View {
             Chart {
                 ForEach(Array(data.enumerated()), id: \.offset) { index, entry in
